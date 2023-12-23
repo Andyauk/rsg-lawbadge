@@ -1,9 +1,11 @@
 # RexshackGaming
-- discord : https://discord.gg/s5uSk56B65
+- discord : https://discord.gg/eW3ADkf4Af
+- youtube : https://www.youtube.com/channel/UCikEgGfXO-HCPxV5rYHEVbA
 - github : https://github.com/Rexshack-RedM
 
 # Dependancies
 - rsg-core
+- ox_lib
 
 # Installation
 - ensure that the dependancies are added and started

@@ -3,7 +3,8 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 game 'rdr3'
 
 author 'RexShack#3041'
-description 'rsg-badge'
+description 'rsg-lawbadge'
+version '1.0.1'
 
 client_scripts {
 	'client/client.lua'
@@ -14,9 +15,13 @@ server_scripts {
 }
 
 shared_scripts {
-	'config.lua'
+	'config.lua',
+    '@ox_lib/init.lua'
 }
 
-dependency 'rsg-core'
+dependencies {
+    'rsg-core',
+    'ox_lib'
+}
 
 lua54 'yes'
